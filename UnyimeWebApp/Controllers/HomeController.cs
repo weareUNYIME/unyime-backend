@@ -218,14 +218,7 @@ namespace IndexWebApplication.Controllers
             }
 
         }
-
-        public IActionResult LogOut()
-        {
-            // HttpContext.Session.Clear();
-            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return View("Login");
-        }
-
+                
         public IActionResult Privacy()
         {
             return View();
