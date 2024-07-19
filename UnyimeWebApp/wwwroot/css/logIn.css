@@ -1,0 +1,32 @@
+﻿body {
+    background-image: url('~/img/backgroundPic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 85vh;
+    margin: 0;
+}
+
+#header {
+    background-color: #002C15;
+    height: 15vh;
+}
+
+#textLogo {
+    color: #E5FF14;
+    font-weight: bold;
+}
+
+#cardBody {
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    display:flex;
+    width: 30vw;
+    align-self:center;
+}
+
+#altLogin button {
+    width: 100%;
+    display: block;
+    border: 1px solid black;
+}

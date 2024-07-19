@@ -1,5 +1,82 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Sign Up";
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UnyimeWebApp - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/UnyimeWebApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header id="header">
+        <div>
+            <img id="teamLogo" src="" />
+            <p>unyime</p>
+        </div>
+        <div>
+            <p>Already have an account? <u>Log In</u></p>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <img id="backgroundPic" src="" />
+        </div>
+        <div>
+            <h2>Let's get to know you!</h2>
+            <h6>Fill up this form to get started</h6>
+
+            <!--Sections-->
+            <div>
+                <!--Section 1-->
+                <div>
+                    <label>Last Name</label>
+                    <input />
+
+                    <label>Other Names</label>
+                    <input />
+
+                    <label>Email</label>
+                    <input />
+
+                    <div>
+                        <button>Cancel</button>
+                        <button>Next</button>
+                    </div>
+                </div>
+                <!--Section 2-->
+                <div>
+                    <label>Country</label>
+                    <input />
+
+                    <label>City</label>
+                    <input />
+
+                    <label>Phone number</label>
+                    <input placeholder="Add country code"/>
+
+                    <label>LinkedIn URL</label>
+                    <input />
+
+                    <div>
+                        <button>Previous</button>
+                        <button>Next</button>
+                    </div>
+                </div>
+                <!--Section 3-->
+                <div>
+                    <label></label>
+
+                    <div>
+                        <button>Previous</button>
+                        <button>Finish</button>
+                    </div>
+                </div>                                
+            </div>
+        </div>
+    </main>
+</body>

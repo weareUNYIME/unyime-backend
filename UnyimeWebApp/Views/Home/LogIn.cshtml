@@ -1,5 +1,64 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    Layout = null;
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UnyimeWebApp -Log In</title>
+    <link rel="stylesheet" href="~/css/logIn.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/UnyimeWebApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header id="header">
+        <div>
+            <img id="teamLogo" src=""/>
+            <p id="textLogo">unyime</p>
+        </div>
+        <div>
+            <p>Don't have an account? <u>Sign up</u></p>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <img id="backgroundPic" src="~/img/backgroundPic.png" />
+        </div>
+        <div id="cardBody">
+            <h2>Log In</h2>
+            <h6>Access your account again</h6>
+            <div>
+                <div>
+                    <div>
+                        <img src="~/img/email.png" />
+                        <input placeholder="email" />
+                    </div>
+                    <div>
+                        <input placeholder="password" />
+                    </div>                    
+                    <button>Log In</button>
+                </div>
+                
+                <hr />
+
+                <div id="altLogin">
+                    <button>
+                        Log In with Google
+                    </button>
+                    <button>
+                        Log In with Facebook
+                    </button>
+                    <button>
+                        Log In with Apple
+                    </button>
+                </div>
+
+                <div>
+                    <p>Don't have an account? <u>Sign Up</u></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
